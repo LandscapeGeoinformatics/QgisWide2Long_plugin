@@ -34,10 +34,6 @@ from qgis.core import (
             
 from qgis import processing
 
-import geopandas as gpd
-import pandas as pd
-from shapely.geometry import Polygon, MultiPolygon
-
 class Wide2LongProcessingAlgorithm(QgsProcessingAlgorithm):
     """
     This is an Wide2Long algorithm that takes a vector layer and
